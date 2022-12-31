@@ -19,12 +19,16 @@ This is a solution to the [CSS Box Model tutorial No. 5 of HTML & CSS Is Hard](h
 
 ### Screenshots
 
-![](./screenshot.jpg)
+**UPDATE NEEDED - maybe link both pages?**
+**No screenshot for menu yet**
+
+![Advanced Positioning screenshot](./screenshots/advanced-positioning.png)
+![Menu screenshot](./screenshots/menu.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Advanced Positioning solution](https://github.com/jugglingdev/advanced-positioning)
+- Live Site URL: [Advanced Positioning live site](https://jugglingdev.github.io/advanced-positioning/)
 
 ## My process
 
