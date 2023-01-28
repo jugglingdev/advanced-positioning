@@ -1,6 +1,6 @@
-# Interneting Is Hard - CSS Box Model
+# Interneting Is Hard - Advanced Positioning
 
-This is a solution to the [CSS Box Model tutorial No. 5 of HTML & CSS Is Hard](https://www.internetingishard.com/html-and-css/css-box-model/).
+This is a solution to the [Advanced Positioning tutorial No. 9 of HTML & CSS Is Hard](https://www.internetingishard.com/html-and-css/advanced-positioning/).
 
 ## Table of contents
 
@@ -18,9 +18,6 @@ This is a solution to the [CSS Box Model tutorial No. 5 of HTML & CSS Is Hard](h
 ## Overview
 
 ### Screenshots
-
-**UPDATE NEEDED - maybe link both pages?**
-**No screenshot for menu yet**
 
 ![Advanced Positioning screenshot](./screenshots/advanced-positioning.png)
 ![Menu screenshot](./screenshots/menu.png)
