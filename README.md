@@ -36,28 +36,29 @@ This is a solution to the [Advanced Positioning tutorial No. 9 of HTML & CSS Is 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While previous tutorials covered static positioning, this one covered relative, absolute, and fixed positioning.  We use the `position` property for these.
 
-To see how you can add code snippets, see below:
+To offset an element from its static position, use `position: relative`, which will take values of `top`, `left`, `bottom`, or `right` as offset coordinates.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+To base the position off the entire browser window and scroll with the page, use `position: absolute` with coordinates.  If you make the item's parent element `position: relative` (without specific coordinates), then the item will anchor to that element instead of the browser window.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+For an element that remains in place and doesn't scroll with the page, use `position: fixed` with coordinates.  Examples of use cases for fixed positioning include navigation bars and pop-up banners.
+
+To apply these techniques to a project, I made a menu that is fixed with a dropdown that is absolute (and anchored with relative positioning).
+
+A best practice for menus is to code them semantically as lists for search engines.  This includes submenus.
+
+One unique topic covered in this tutorial was the `z-index`, which assigns depth to an element.  For the menu, I used the `z-index` property to deal with the Features submenu, making sure the `Features` label didn't get covered up.  The default value is `0`, so I used `1` for the submenu and `2` for the label.
+
+Another trick was hiding the submenu until the cursor is over `Features`.  To do this, I used the `:hover` pseudo-class for the submenu with `display: flex` to make it appear, and in a separate rule I used `display: none` to hide the submenu until the hover.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This tutorial took a peek at using JavaScript code with relative and absolute positioning.  The code went over my head for the time being, but it's definitely something I look forward to learning more about in the future.  For now, I got to enjoy some simple animation watching an element glide across the screen.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN Cursor](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor) - Change up the mouse pointer with this property!
 
 ## Author
 
